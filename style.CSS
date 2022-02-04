@@ -1,0 +1,557 @@
+* {
+    box-sizing: border-box;
+  }
+.nav
+{
+    display:inline; 
+    float: right;
+    margin: 2px 2px;
+    padding: 1px 1px;
+    position: absolute;
+    right: 44px;
+    top: 34px;
+}
+.nav li
+{
+    display: inline-block;
+    margin: 2px 2px;
+    padding: 6px 20px;
+}
+.nav li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 4px 4px;
+}
+.nav li a:hover
+{
+    color: black;
+    text-decoration: underline;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color:white;
+}
+.head
+{
+    border: 2px solid black;
+    height: 105px;
+    background-color: rgb(255, 68, 0);
+    margin: -6px -6px 2px -6px;
+}
+.head img
+{
+    display: inline;
+    position: absolute;
+    width: 100px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    float: left;
+    left:60px;   
+}
+.head h1
+{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    display: inline-block;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.imp
+{
+    background-color:black;
+    margin: 2px 2px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.imp:hover
+{
+    background-color:white;
+    border: 1px solid black;
+}
+.container
+{
+    display: block;
+    border: 2px solid black;
+    margin: 1px -6px 2px -6px;
+    height: 600px;
+    background-color: rgb(148, 148, 148);
+    background-image: url("Donate_Background.jpg");
+    vertical-align: top; 
+    background-repeat: no-repeat;
+    background-size: 1350px 600px;
+    background-blend-mode:multiply;
+}
+.container h1
+{
+    position: absolute;
+    font-size: 60px;
+    font-weight:200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:beige;
+    width: 800px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    left: 30px;
+    top: 130px;
+}
+.container p
+{
+    color:beige; 
+    font-size: 20px;
+    width: 800px;
+    position: absolute;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    top: 370px;
+    left: 30px;
+}
+.container ul
+{
+    display: inline-block;
+    padding: 2px 2px;
+    margin: 2px 2px;
+    position: absolute;
+    top: 580px;
+    left: 180px;
+}
+.container li
+{
+    display: inline-block;
+    margin: 2px 2px;
+}
+.container li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    margin: 2px 4px;
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 24px;
+}
+.container li a:hover
+{
+    color: black;
+    background-color: white;
+}
+.cont
+{
+    display: block;
+    border: 2px solid black;
+    margin: -2px -6px 2px -6px;
+    background-image: url("snow_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1350px 600px;
+    background-color:rgb(209, 209, 209);
+    background-blend-mode: multiply;
+    overflow: auto;
+}
+.cont h1
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 2px 2px 2px;
+    padding: 2px 2px;
+}
+.sect
+{
+    display:inline-block;
+    float: left;
+    border: 0.5px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 8px 20px;
+    padding: 2px 4px;
+    text-align: center;
+}
+.sect h2
+{
+    margin: 2px 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.sect img
+{
+    width: 350px;
+    height: 250px;
+    margin: 2px 2px;
+    padding: 6px 6px;
+}
+.sect p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight:normal;
+}
+.foot
+{
+    display: block;
+    margin: -6px -6px -6px -6px; ;
+    background-image: url("foot.jpg");
+    background-color: rgb(110, 110, 110);
+    background-blend-mode: multiply;
+    height: 450px;
+}
+.foot section
+{
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 300px;
+    color: white;
+    margin: 20px 16px;
+    padding: 2px 2px;
+    overflow: auto;
+}
+.foot h3
+{
+    margin: 4px 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+}
+.foot img
+{
+    width: 60px;
+    margin: 8px 2px 2px 16px;
+    float: left;
+}
+#head
+{
+    margin-top: 18px;
+}
+.foot p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px 2px;
+    color: rgb(220, 220, 220);
+}
+#para
+{
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+#links li
+{
+    margin: 40px 2px;
+    list-style: none;
+    text-align:center;
+    width: 200px;
+}
+#links li a
+{
+    text-decoration: none;
+    color:rgb(200, 200, 200) ;
+}
+#links li a:hover
+{
+    color:orangered ;
+}
+#news p
+{
+    text-align:center;
+    width: 200px;
+    margin: 40px 2px;
+    margin-left: 50px;
+}
+#conta p
+{
+    width: 150px;
+    margin: 35px 2px;
+    margin-left: 80px;
+}
+@media screen and (min-device-width: 210px)
+and (max-device-width: 840px)
+{
+* {
+    box-sizing: border-box;
+  }
+.nav
+{
+    display:inline; 
+    float: right;
+    margin: 6px 4px;
+    padding: 26px 1px;
+    position: relative;
+    right: 20px;
+    top: 2px;
+}
+.nav li
+{
+    display: inline-block;
+    margin: 2px 2px;
+    padding: 6px 10px;
+}
+.nav li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 4px 4px;
+    font-size: 18px;
+}
+.nav li a:hover
+{
+    color: black;
+    text-decoration: underline;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color:white;
+}
+.head
+{
+    border: 2px solid black;
+    height: 105px;
+    width: 830px;
+    background-color: rgb(255, 68, 0);
+    margin: -6px -6px 2px -6px;
+}
+.head img
+{
+    display: inline;
+    position: absolute;
+    width: 90px;
+    margin: 4px 2px;
+    padding: 2px 2px;
+    float: left;
+    left:25px;   
+}
+.head h1
+{
+    width: 150px;
+    margin: 4px 2px;
+    padding: 2px 2px;
+    display: inline-block;
+    position: absolute;
+    left: 130px;
+    top: 2px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.imp
+{
+    background-color:black;
+    margin: 2px 2px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.imp:hover
+{
+    background-color:white;
+    border: 1px solid black;
+}
+.container
+{
+    width: 830px;
+    display: block;
+    border: 2px solid black;
+    margin: 1px -6px 2px -6px;
+    height: 450px;
+    background-color: rgb(148, 148, 148);
+    background-image: url("Donate_Background.jpg");
+    vertical-align: top; 
+    background-repeat: no-repeat;
+    background-size: 825px 500px;
+    background-blend-mode:multiply;
+}
+.container h1
+{
+    position: absolute;
+    font-size: 40px;
+    font-weight:200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:beige;
+    width: 780px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    left: 30px;
+    top: 140px;
+}
+.container p
+{
+    color:beige; 
+    font-size: 20px;
+    width: 650px;
+    position: absolute;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    top: 275px;
+    left: 30px;
+}
+.container ul
+{
+    display: inline-block;
+    width: 350px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+    position: absolute;
+    top: 460px;
+    left: 220px;
+}
+.container li
+{
+    display: inline-block;
+    margin: 2px 2px;
+}
+.container li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    margin: 2px 4px;
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 24px;
+}
+.container li a:hover
+{
+    color: black;
+    background-color: white;
+}
+.cont
+{
+    width: 830px;
+    display: block;
+    border: 2px solid black;
+    margin: -2px -6px 2px -6px;
+    background-image: url("snow_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 830px 1300px;
+    background-color:rgb(209, 209, 209);
+    background-blend-mode: multiply;
+    overflow: auto;
+}
+.cont h1
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 2px 2px 2px;
+    padding: 2px 2px;
+}
+.sect
+{
+    display:block;
+    float: left;
+    border: 0.5px solid white;
+    width: 500px;
+    height: 400px;
+    margin: 8px 20px;
+    padding: 2px 4px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+}
+.sect h2
+{
+    margin: 2px 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.sect img
+{
+    width: 400px;
+    height: 270px;
+    margin: 2px 2px;
+    padding: 6px 6px;
+}
+.sect p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight:normal;
+}
+.foot
+{
+    width: 830px;
+    display: block;
+    margin: -6px -6px -6px -6px; ;
+    background-image: url("foot.jpg");
+    background-color: rgb(110, 110, 110);
+    background-blend-mode: multiply;
+    background-size: 830px 450px;
+    height: 310px;
+}
+.foot section
+{
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 290px;
+    width: 178px;
+    color: white;
+    margin: 8px 8px;
+    padding: 2px 2px;
+    overflow: auto;
+}
+.foot h3
+{
+    margin: 4px 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+.foot img
+{
+    width: 40px;
+    margin: 2px 2px 2px 2px;
+    float: left;
+}
+#head
+{
+    margin-top: 8px;
+}
+.foot p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px 2px;
+    color: rgb(220, 220, 220);
+}
+#para
+{
+    margin-top: 28px;
+    font-size: 12.4px;
+    text-align: center;
+}
+#links ul
+{
+    list-style-type:none;
+    height: 230px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+#links li
+{
+    margin: 30px 2px;
+    list-style: none;
+    text-align:center;
+    width: 95px;
+    margin-left: 38px;
+}
+#links li a
+{
+    text-decoration: none;
+    color:rgb(200, 200, 200) ;
+}
+#links li a:hover
+{
+    color:orangered ;
+}
+#news p
+{
+    text-align:center;
+    width: 175px;
+    margin: 25px 2px;
+    padding: 2px 2px;
+}
+#conta p
+{
+    width: 150px;
+    margin: 35px 2px;
+}
+}
