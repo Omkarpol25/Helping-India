@@ -387,7 +387,7 @@ and (max-device-width: 840px)
 .container ul
 {
     display: inline-block;
-    width: 350px;
+    width: 400px;
     padding: 2px 2px;
     margin: 2px 2px;
     position: absolute;
